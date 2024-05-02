@@ -1,0 +1,287 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+*{
+    /* color: gray; */
+    text-decoration: none;
+    
+}
+.top-menu{
+    list-style-type: none;
+    display: flex;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.top-menu li {
+    margin-left: 70px;
+    text-decoration: none;
+    color: gray;
+}
+.top-menu a{
+    color: gray;
+}
+.top-menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 30px;
+}
+.search-menu-btn{
+    margin-top: 20px;
+    margin-left: 80px;
+    color: black;
+}
+.search-menu-btn:focus{
+    box-shadow: 0 0 5px orange;
+}
+.top-menu input{
+    width: 350px;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid rgb(215, 188, 137);
+    outline: none;
+}
+#sign-bt:hover{
+    background-color: white;
+    color: orange;
+}
+#sign-bt{
+    background-color: orange;
+    padding: 8px;
+    border: 1px solid black;
+    color: white;
+    border-radius: 2px;
+}
+.main{
+    display: flex;
+    margin-top: 20px;
+}
+.main p{
+    margin-top: 70px;
+    margin-left: 200px;
+    list-style-type: none;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.main h3{
+    margin-top: 20px;
+    margin-left: 220px;
+    margin-bottom: 0px;
+    margin-right: 400px;
+    font-size: 20px;
+    padding: 20px 20px 20px 20px;
+    border: 1px solid orange;
+    background-color: orange;
+    color: aliceblue;
+}
+.main h3:hover{
+    background-color: white;
+    color: orange;
+}
+.main img{
+    margin-left: 60px;
+    width: 520px;
+}
+.last{
+    display: flex;
+    background-color: rgb(54, 50, 50);
+    color: aliceblue;
+    margin-top: 80px;
+}
+.last ul{
+    list-style-type: none;
+}
+.last-1{
+    margin-left: 150px;
+}
+.last-1 p{
+    margin-bottom: 0px;
+}
+.last-menu{
+    margin-top: 40px;
+}
+.last-menu li{
+    margin-top: 30px;
+    margin-left: 95px;
+    font-size: 22px;
+    color: rgb(215, 221, 223);
+    font-weight: bolder;
+}
+.last-menu1{
+    margin-top: 40px;
+}
+.last-menu1 li{
+    margin-top: 30px;
+    margin-left: 125px;
+    font-size: 22px;
+    color: rgb(215, 221, 223);
+}
+.last-menu2{
+    display: flex;
+}
+.last-menu2 li{
+    margin: 30px;
+    font-size: 22px;
+    margin-left: 20px;
+}
+#last-menu2{
+    color: aliceblue;
+    padding: 10px;
+    /* border: 1px solid white; */
+    border-radius: 70px;
+}
+#last-menu2:hover{
+    background-color: skyblue;
+    color: white ;
+}
+.Categories{
+    display: flex;
+    margin-top: 40px;
+    text-align: center;
+}
+.Categories-1{
+    margin-left: 250px;
+    padding: 100px 100px 250px 70px;
+    border: 1px solid black;
+    background-color: rgb(111, 210, 111);
+    color: white;
+    backface-visibility: visible;
+}
+.Categories-2{
+    margin-left: 100px;
+    padding: 100px 125px 250px 125px;
+    border: 1px solid black;
+    background-color: rgb(189, 167, 138);
+    color: white;
+
+
+}
+.Categories-3{
+    margin-left: 100px;
+    padding: 100px 120px 250px 120px;
+    border: 1px solid black;
+    background-color: skyblue;
+    color: white;
+}
+.choose-container-1{
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.choose-container-1 p{
+    font-size: 20px;
+    color: rgb(177, 167, 167);
+}
+.choose-container-2{
+    margin-left: 200px;
+    margin-top: 70px;
+}
+.choose-container-2 p{
+    font-size: 20px;
+    color: rgb(177, 167, 167);
+}
+.bottom-menu{
+    list-style-type: none;
+    display: flex;
+    margin-left: 500px;
+}
+.bottom-menu button{
+    outline: none;
+    border: none;
+    font-size: 20px;
+    background-color: white;
+    padding: 0px;
+    /* border-bottom: 1px solid gray; */
+}
+.bottom-menu li{
+    margin-left: 50px;
+    padding-bottom: 10px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
+.bottom-menu li:active{
+    color: green;
+    border-bottom: 2px solid green;
+}
+.Fruits-top{
+    margin: 50px 0px 0px 140px;
+    display: flex;
+}
+.Fruits-top-1{
+    list-style-type: none;
+    display: flex;
+    margin-left: 20px;
+}
+.Fruits-top-1 li{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: orange;
+}
+.Fruits-top1{
+    padding: 30px 25px 40px 25px;
+}
+.Fruits-top2{
+    padding: 30px 25px 40px 25px;
+    margin-left: 20px;
+}
+.Fruits-top1 h2{
+    text-align: center;
+}
+.Fruits-top1 p{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.Fruits-top1 p:hover{
+    background-color: green;
+    color: white;
+}
+.Fruits-top2 h2{
+    text-align: center;
+}
+.Fruits-top2 p{
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border: 1px solid gray;
+}
+.Fruits-top2 p:hover{
+    background-color: green;
+    color: white;
+}
+.Fruits-top1:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.Fruits-top2:hover{
+    box-shadow: 0px 0px 10px gray;
+}
+.Organic{
+    margin: 30px 0px 0px 100px;
+}
+.Organic img{
+    margin: 20px;
+}
+.absolute1{
+    position: relative;
+    bottom: 180px;
+    left: 115px;
+}
+.absolute2{
+    position: relative;
+    bottom: 125px;
+    left: 50px;
+}
+.absolute3{
+    position: relative;
+    bottom: 125px;
+    left: 40px;
+}
+
+.circle-nav{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+
+.button-mem{
+    border: none;
+    background-color: white;
+}

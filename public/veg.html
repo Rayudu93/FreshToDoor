@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreshToDoor | Vegetables</title>
+    <link rel="stylesheet" href="veg.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <script src="veg.js"></script> -->
+
+</head>
+<body>
+    <div style="display: flex;">
+        <div class="Veg-count">
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/tomato.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Tomato</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Tomatoes, prized for their vibrant color and rich flavor, are a versatile fruit packed with essential <br>nutrients like vitamins C and K, and antioxidants such as lycopene. From fresh salads to savory<br>sauces, tomatoes add depth and nourishment to a variety of dishes.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal" ><</button>
+                        <input type="number" class="quantity-btn1"  value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1">></button>
+                        <button onclick="addToCart('Tomato',100,'../Images/tomato.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/brinjal.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Brinjal</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Brinjal, with its glossy purple skin, offers a delightful combination of earthy flavor and creamy<br>texture, making it a versatile ingredient in various cuisines. Rich in fiber and antioxidants, brinjal is<br>a nutritious addition to dishes, whether roasted, grilled, or stewed.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal" ><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" >></button>
+                        <button onclick="addToCart('Brinjal',100,'../Images/brinjal.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/Bit root.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Beet Root</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Beetroot, with its deep crimson hue, is prized for its earthy sweetness and impressive nutritional<br>profile, boasting high levels of vitamins, minerals, and antioxidants. Whether roasted, pickled, or<br>grated raw, beetroot adds a vibrant burst of color and flavor to salads, soups, and savory dishes.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Beet Root',100,'../Images/Bit root.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/onion.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Onion</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Onions, with their pungent aroma and distinct flavor, are a staple ingredient in countless savory <br>dishes worldwide, adding depth and complexity to culinary creations. Rich in antioxidants and<br> flavonoids, onions not only enhance the taste of dishes but also offer potential health benefits,<br> making them a versatile and valuable addition to any kitchen.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Onion',100,'../Images/onion.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/cabage.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Cabbage</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Cabbage, with its crisp texture and subtle sweetness, is a versatile vegetable that can be enjoyed<br> raw in salads or cooked in a variety of dishes, from stir-fries to soups. Packed with vitamins,<br> minerals, and antioxidants, cabbage is not only delicious but also offers numerous health benefits,<br> making it a nutritious addition to any meal.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Cabbage',100,'../Images/cabage.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/honeydew.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Honey Dew</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Honeydew, with its pale green flesh and sweet aroma, is a refreshing summer fruit beloved for its<br>juicy, succulent texture and delicate flavor. Rich in vitamins C and B6, as well as potassium and<br>fiber, honeydew melon is a hydrating and nutritious treat perfect for enjoying on hot days or<br>adding a touch of sweetness to fruit salads and desserts.
+                        </p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Honey Dew',100,'../Images/honeydew.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/cucumber.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Cucumber</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Cucumber, with its crisp, refreshing taste and high water content, is a cooling vegetable often<br> enjoyed in salads and sandwiches. Packed with vitamins, minerals, and antioxidants, cucumber not<br> only hydrates the body but also promotes overall health and well-being.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Cucumber',100,'../Images/cucumber.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/Garlic.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Garlic</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Garlic, known for its pungent aroma and distinct flavor, is a versatile ingredient used in cuisines <br>worldwide. Rich in antioxidants and sulfur compounds, garlic not only adds depth to dishes but <br>also offers potential health benefits. Whether minced, crushed, or roasted, garlic infuses dishes<br> with its signature taste and enhances the overall culinary experience. From savory sauces to<br>hearty soups, garlic is a staple in the kitchen, prized for its culinary versatility and potential<br> health-promoting properties.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Garlic',100,'../Images/Garlic.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/Ginger.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Ginger</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Ginger, known for its spicy-sweet flavor, is a versatile root used in both culinary and medicinal<br> practices. Renowned for its digestive benefits and rich in antioxidants, ginger adds warmth and<br> depth to dishes, making it a popular ingredient worldwide.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Ginger',100,'../Images/Ginger.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/Green Beans.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Green Beans</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Green Beans, also known as green peppers, are a popular vegetable in the world. They are<br> rich in vitamins, minerals, and antioxidants, making them ideal for cooking and<br> diet. Green Beans are also known for their high protein content, which makes them ideal for<br> cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Green Beans',100,'../Images/Green Beans.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/capsicum.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Capsicum</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Capsicum is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Capsicum is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Capsicum',100,'../Images/capsicum.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/chilli.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Red Chilli</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Red Chilli is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Red Chilli is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Red Chilli',100,'../Images/chilli.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/califlower.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Cali Flower</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Cali Flower is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Cali Flower is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Cali Flower',100,'../Images/califlower.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/ladies finger.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Ladies Finger</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Ladies Finger is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Ladies Finger is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Ladies Finger',100,'../Images/ladies finger.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/drum sticks.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Drum Sticks</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Drum Sticks is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Drum Sticks is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('Drum Sticks',100,'../Images/drum sticks.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button>
+                    </div>
+                    
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/kakari.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">Bitter elon</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>Bitter elon is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. Bitter elon is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1" value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" id="increase-btn">></button>
+                        <button onclick="addToCart('potato',100,'../Images/potato.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button></button>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex;">
+                <div class="veg-top-menu">
+                    <img src="../Images/potato.jpg" width="200px">
+                </div>
+                <div class="veg-top-menu1">
+                    <p style="margin: 0px; color: gray;">Organic Farm</p>
+                    <h2 style="margin: 10px 0px;">potato</h2>
+                    <ul>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-fill"></i></li>
+                        <li><i class="bi bi-star-half"></i></li>
+                        <li><p style="margin: 0px 0px 0px 20px; color: gray;">4 customer reviews</p></li>
+                    </ul>
+                    <p>potato is a popular vegetable in the world. It is rich in vitamins, minerals, and<br> antioxidants, making it ideal for cooking and diet. potato is also known for its high protein content,<br> which makes it ideal for cooking.</p>
+                    <p style="font-size:x-large;" class="cart-item-price">₹ 100.00/Kg</p>
+                    <div class="number-input-container">
+                        <p>Quantity:</p>
+                        <button class="quantity-btn reveal"><</button>
+                        <input type="number" class="quantity-btn1"  value="1" min="1" max="10">
+                        <button class="quantity-btn reveal1" >></button>
+                        <button onclick="addToCart('potato',100,'../Images/potato.jpg',)" class="button-mem"><a href="#" style="text-decoration: none;"><p class="cart"><i class="bi bi-cart3" style="margin-right: 10px;"></i>ADD TO CART</p></a></button></button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="veg-cat">
+            <h2>Categories</h2>
+            <input type="checkbox">Vegetables</input><br>
+            <input type="checkbox">Meat</input><br>
+            <input type="checkbox">Fruits</input><br>
+            <h2>Brands</h2>
+            <input type="checkbox">Organic Farm</input><br>
+            <input type="checkbox">Fresh Market</input><br>
+            <input type="checkbox">Eco Food</input><br>
+            <h2>Price</h2>
+            <input type="checkbox">Vegetables</input><br>
+            <input type="checkbox">Meat</input><br>
+            <input type="checkbox">Fruits</input><br>
+        </div>
+    </div>
+
+    <script src="fruits.js"></script>
+
+</body>
+</html>
